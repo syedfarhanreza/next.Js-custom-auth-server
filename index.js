@@ -40,7 +40,7 @@ async function run() {
           message: "User already exist!!!",
         });
       }
-
+      
       // Hash the password
       const hashedPassword = await bcrypt.hash(password, 10);
 
